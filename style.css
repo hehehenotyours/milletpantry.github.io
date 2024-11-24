@@ -6,7 +6,59 @@
             background-color: #fffaf2;
             color: #333;
         }
+.hero {
 
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            color:#e09141;
+            text-align: left;
+            padding: 2rem;
+          }
+          
+          .hero-text h1 {
+            font-size: 50px;
+            margin-bottom: 1rem;
+          }
+          
+          .hero-text p {
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+            margin-left: 15px;
+            margin-bottom: 2rem;
+          }
+          
+          .cta-buttons {
+            display: flex;
+            gap: 1rem;
+          }
+          
+          .btn {
+            background-color: #e38b4a;
+            color: white;
+            padding: 0.8rem 1.5rem;
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 1rem;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            transition: background-color 0.3s ease;
+          }
+          
+          .btn:hover {
+            background-color: #cf7332;
+          }
+          
+          .btn.secondary {
+            background-color: #ffffff;
+            color: #e38b4a;
+            border: 2px solid #e38b4a;
+          }
+          
+          .btn.secondary:hover {
+            background-color: #e38b4a;
+            color: white;
+          }
         nav {
             display: flex;
             position: fixed;
