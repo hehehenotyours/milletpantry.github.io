@@ -1,0 +1,637 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fffaf2;
+            color: #333;
+        }
+
+        nav {
+            display: flex;
+            position: fixed;
+            background-color: #fffaf2;
+            padding: 10px ;
+            width: 100%;
+            margin-top: 0px;
+            height: 90px;
+        }
+
+        nav img {
+            
+            margin-left: 10px;
+            width: 180px;
+            height: 120px;
+            
+        }
+        nav a {
+            margin: 20px 15px;
+            text-decoration: none;
+            color:black;
+            font-size: 30px;
+            text-align: right;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        nav a:hover {
+            color: #f0a64b;
+        }
+        .button {
+            background-color: #f0a64b; /* Orange color from the design */
+            color: white; /* Text color */
+            font-size: 20px; /* Font size */
+            margin-top: 15px;
+            padding: 20px;
+            margin-left: 20px; /* Button padding */
+            border: none; /* Remove border */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer; /* Changes cursor to pointer on hover */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+        }
+        .button1 {
+            background-color: #f0a64b; /* Orange color from the design */
+            color: white; /* Text color */
+            font-size: 20px; /* Font size */
+            
+            padding: 20px;
+            margin-left: 20px; /* Button padding */
+            border: none; /* Remove border */
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            cursor: pointer; /* Changes cursor to pointer on hover */
+            transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+        }
+        .button1:hover {
+            background-color: #e6953f; /* Darker shade of orange on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        .button1:active {
+            background-color: #d48434; /* Even darker shade when clicked */
+            transform: scale(0.98); /* Slight shrink effect on click */
+        }
+        .button:hover {
+            background-color: #e6953f; /* Darker shade of orange on hover */
+            transform: scale(1.05); /* Slight zoom effect on hover */
+        }
+
+        .button:active {
+            background-color: #d48434; /* Even darker shade when clicked */
+            transform: scale(0.98); /* Slight shrink effect on click */
+        }
+        
+        .text{
+            float: left;
+            margin-top: 70px;
+        
+        }
+        
+        .image {
+            float: right;
+            height: 1000px;
+            width: auto;
+            margin-top: 50px;
+        }
+
+        h2 {
+            font-size: 48px;
+            margin-left: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h3 {
+            font-size: 20px;
+            margin-left: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        h1 span {
+            color: #f0a64b;
+            font-weight: bold;
+        }
+        h1 {
+            font-size: 75px;
+            margin-left: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h2 span {
+            color: #f0a64b;
+            font-weight: bold;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .logo {
+            margin: 30px auto;
+        }
+
+        .logo img {
+            width: 120px;
+            height: auto;
+        }
+
+        .tagline {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .cta {
+            margin-top: 30px;
+        }
+
+        .cta a {
+            text-decoration: none;
+            color: #f0a64b;
+            font-size: 16px;
+            font-weight: bold;
+            border-bottom: 1px solid #f0a64b;
+        }
+
+        .cta a:hover {
+            color: #333;
+            border-bottom: 1px solid #333;
+        }
+        .abcontainer {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            padding: 0px 10%;
+            gap: 30px;
+        }
+        .additional-content {
+            padding: 30px 10%; /* Padding on all sides */
+            margin-top: 0px;
+            background-color: #fff3e0; /* Light background color */
+            border-top: 1px solid #ddd; /* Border to separate sections */
+            text-align: center; /* Align text to the left */
+            font-size: 26px; /* Font size */
+            color: #333; /* Text color */
+            line-height: 2.0; /* Line height for better readability */
+            width: 100%; 
+            /* Ensure it spans the full width */
+            box-sizing: border-box; 
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;/* Include padding in the width */
+        }
+        .abimage img {
+            width: 100%;
+            height:720px;
+            margin-left: 10px;
+            border-radius: 5px;
+        }
+        
+        .abtext {
+            max-width: 600px;
+        }
+        
+        .abtext h1 {
+            font-size: 2rem;
+            color: #000;
+        }
+        
+        .abtext .highlight {
+            color: #f0a64b; /* Highlight color */
+        }
+        
+        .abtext h2 {
+            font-size: 30px;
+            margin-top: 20px;
+            margin-left: 0px;
+            color: #000;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .abtext p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-top: 10px;
+            color: #333;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .blog-header {
+            padding: 120px 10%; /* Add space below the navbar */
+            text-align: center;
+            background-color:#fffaf2;
+            color: #333;
+            height: 40px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+        }
+        .blog-header p {
+            font-size: 20px;
+            color: #555;
+        }
+        
+        .blog-header h1 {
+            font-size: 50px;
+            color: #f0a64b  ;
+            margin-bottom: 0px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        
+        /* Blog Posts */
+        .blog-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            
+            padding: 0px 10%;
+        }
+        
+        .blog-post {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            margin: 20px;
+            text-align: center;
+            padding: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        
+        .blog-post img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        
+        .blog-post h2 {
+            font-size: 1.5rem;
+            color: #f0a64b;
+            margin-bottom: 10px;
+        }
+        
+        .blog-post p {
+            font-size: 1rem;
+            color: #333;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+        
+        .blog-post a {
+            text-decoration: none;
+            color: #fff;
+            background-color: #f0a64b;
+            padding: 10px 20px;
+            border-radius: 0px;
+            font-weight: bold;
+            font-size: 0.9rem;
+            
+            display: inline-block;
+        }
+        
+        .blog-post a:hover {
+            background-color: #e09141;
+        }
+        
+        /* Footer */
+        .footer {
+            text-align: center;
+            padding: 20px 10%;
+            background-color: #fff3e0;
+            color: #333;
+            border-top: 1px solid #ddd;
+            margin-top: 50px;
+        }
+        
+        .footer p {
+            margin: 5px 0;
+            font-size: 1rem;
+        }
+        .post-header {
+    text-align: center;
+    padding: 120px 10% 20px; /* Add padding below navbar */
+    background-color: #fffaf2;
+    color: #333;
+    
+}
+
+.post-header h1 {
+    font-size: 40px;
+    color: #f0a64b;
+    margin-bottom: 10px;
+}
+
+.post-header p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Blog Post Content */
+.post-container {
+    padding: 10px 10%;
+    width: 100%;
+    background-color:#fffaf2;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.post-container img.post-image {
+    width: 25%;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-left: 450px;
+    
+}
+
+.post-container h2 {
+    font-size: 1.8rem;
+    color: #f0a64b;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.post-container p {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+/* Back to Blog Button */
+.back-to-blog {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.back-to-blog a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fffaf2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.back-to-blog a:hover {
+    background-color: #fffaf2;
+}
+.products-header {
+    padding: 120px 10% 20px; /* Adjust padding for navbar */
+    text-align: center;
+    background-color: #fffaf2;
+    color: #333;
+    height: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products-header h1 {
+    font-size: 50px;
+    color: #f0a64b;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.products-header p {
+    font-size: 20px;
+    color: #555;
+}
+
+/* Products Container */
+.products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Responsive grid */
+    gap: 20px;
+    padding: 50px 10%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.product-card h2 {
+    font-size: 1.5rem;
+    color: #f0a64b;
+    margin-bottom: 0px;
+}
+
+.product-card p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 15spx;
+}
+
+.product-card .buy-now {
+    text-decoration: none;
+    color: #fff;
+    background-color: #f0a64b;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.product-card .buy-now:hover {
+    background-color: #e09141;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Zoom effect */
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+.contact-header {
+    padding: 120px 10% 20px;
+    text-align: center;
+    background-color: #fffaf2;
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-header h1 {
+    font-size: 40px;
+    color: #f0a64b;
+    margin-bottom: 10px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Contact Container */
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 10%;
+    justify-content: space-between;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.contact-details, .contact-form {
+    flex: 1 1 45%;
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-details h2, .contact-form h2 {
+    font-size: 1.8rem;
+    color: #f0a64b;
+    margin-bottom: 15px;
+}
+
+.contact-details p {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Contact Form */
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 97%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form button {
+    background-color: #f0a64b;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #e09141;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff3e0;
+    color: #333;
+    border-top: 1px solid #ddd;
+    margin-top: 50px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.container {
+    width: 100%;
+    
+    margin: 20px auto;
+    background: #fffaf2;
+    padding: 20px;
+
+}
+
+
+
+/* Product Main Section */
+.product-main {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.product-image img {
+    width: 100%;
+    border-radius: 8px;
+    padding: 30px;
+}
+.product-image{
+width: 30%;
+}
+
+.product-details {
+    flex: 1;
+    margin-left: 10%;
+}
+
+.product-details h1 {
+    font-size: 40px;
+    color: #f0a64b;
+    margin-bottom: 10px;
+    margin-left: 15px;
+}
+
+.product-details p {
+    color: #333;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    margin: 15px;
+    width: 70%;
+}
+
+.product-details .add-to-bag {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #0071e3;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-details .add-to-bag:hover {
+    background-color: #005bb5;
+}
+
+.product-details .delivery-link {
+    display: inline-block;
+    margin-top: 10px;
+    color: #0071e3;
+}
+
+/* Product Info Section */
+.product-info h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.product-info p,
+.product-info ul {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
